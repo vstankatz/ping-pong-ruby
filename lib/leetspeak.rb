@@ -4,14 +4,14 @@ class String
     input_array = split("")
     #also typed:  input_array = self.split("") but "self" is implicit in ruby
     input_array.each do |letter|
-
-      if letter == "e"
+      case letter
+      when "e"
         new_array.push("3")
-      elsif letter == "o"
+      when "o"
         new_array.push("0")
-      elsif letter == "I"
+      when "I"
         new_array.push("1")
-      elsif letter == "s"
+      when "s"
         new_array.push("5")
       else
         new_array.push(letter)
