@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "BDD_Ruby_Monday",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,8 @@
     "test": "jest",
     "debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [Ruby],
+  "author": "Lillian Theuma, Veronica Stanley-Katz",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
